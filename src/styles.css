@@ -1,0 +1,64 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 1em;
+  padding: 0.5em;
+  
+  font-size: 2em;
+  text-align: center;
+}
+.btn{
+  width: 300px;
+  height: 60px;
+  background: transparent;
+  cursor: pointer;
+}
+.primary {
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.primary:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.dashed {
+  border: 1px dashed #000000;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.dashed:hover {
+  transition: 1s ease-in-out;
+  border: 2px dashed #ffffff;
+  background: #000000;
+  color: #ffffff
+}
+
+.default {
+  border: 1px solid #000;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.danger {
+  background: transparent;
+  border: 1px solid #ff0000;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.danger:hover {
+  transition: 1s ease-in-out;
+  background: #ff0000;
+}
+.warning{
+  background: transparent;
+  border: 1px solid #f6ff00;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.warning:hover{
+  transition: 1s ease-in-out;
+  background: #f6ff00;
+
+}
